@@ -1,0 +1,22 @@
+{
+	"name": "cec_controller",
+	"version": "1.0.0",
+	"description": "cec commands",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "joaquim",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "cec_controller",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "system_controller"
+	},
+	"dependencies": {
+		"cec-controller": "^1.4.0",
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}
