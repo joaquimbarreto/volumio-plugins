@@ -23,6 +23,8 @@ function cecController(context) {
 cecController.prototype.onVolumioStart = function()
 {
 	var self = this;
+	self.logger.info("CEC Controller initiated.");
+
 	var configFile=this.commandRouter.pluginManager.getConfigurationFile(this.context,'config.json');
 	this.config = new (require('v-conf'))();
 	this.config.loadFile(configFile);
